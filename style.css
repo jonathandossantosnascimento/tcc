@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to bottom, rgb(56, 56, 179), rgb(102, 99, 99),rgb(20, 20, 20));
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+#titulo{
+    flex-direction: column;
+    line-height: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(102, 99, 99) ;
+    transition: 0.5s all;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+h1{
+    font-weight: 200;
+}
+
+
+
