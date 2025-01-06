@@ -16,13 +16,18 @@ body {
 }
 html{
     scroll-behavior: smooth;
-}
-header{
+}  
+nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    
+}
+.custom-divider{
+    height: 1px;
+    background-color: white;
+    border: none;
+    margin: 1px 0;
 }
 #inicio{
     font-style: italic;
@@ -31,7 +36,7 @@ header{
 #titulo{
     flex-direction: column;
     line-height: 7px;
-    
+    font-size: 20px;   
 }
 #vidas{
     text-align: left;
