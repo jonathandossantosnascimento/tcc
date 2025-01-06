@@ -1,11 +1,18 @@
 body {
-    background: linear-gradient(to right, rgb(96, 190, 167), rgb(102, 99, 99),rgb(20, 20, 20));
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
     text-align: center;
+    animation: changeBackground 10s infinite;
+}
+@keyframes changeBackground{
+    0% {background-color:#008B8B ;}
+    25% {background-color:#808080 ;}
+    50% {background-color:#A9A9A9 ;}
+    75% {background-color:#808080 ;}
+    100% {background-color: #008B8B;}
 }
 html{
     scroll-behavior: smooth;
